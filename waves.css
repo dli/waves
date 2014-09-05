@@ -1,0 +1,191 @@
+body {
+    overflow: hidden;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#ui {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#camera {
+    position: absolute;
+    overflow: none;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+#error {
+    position: absolute;
+    display: none;
+    top: 20px;
+    width: 100%;
+    z-index: 2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #333333;
+    text-align: center;
+}
+a:link {
+    color: #333333;
+}
+a:visited {
+    color: #333333;
+}
+
+#length {
+    position: absolute;
+    width: 2004px;
+    height: 2px;
+    background-color: #666666;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: translate3d(-1000px, 0, 1068px) rotateX(90deg);
+    transform: translate3d(-1000px, 0, 1068px) rotateX(90deg);
+}
+
+#end {
+    position: absolute;
+    width: 2000px;
+    height: 30px;
+    border-width: 2px;
+    border-color: #666666;
+    border-style: none solid none solid;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: translate3d(-1000px, 0, 1055px) rotateX(90deg);
+    transform: translate3d(-1000px, 0, 1055px) rotateX(90deg);
+}
+
+#wind {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    width: 300px;
+    text-align: center;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: translate3d(0px, 0pxpx, 160px) rotateX(90deg);
+    transform: translate3d(0px, 0pxpx, 160px) rotateX(90deg);
+}
+
+#wind-speed {
+    font-size: 45px;
+}
+
+#wind-unit {
+    font-size: 35px;
+}
+
+#wind-label {
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #333333;
+    width: 300px;
+    text-align: center;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: translate3d(0px, 0pxpx, 160px) rotateX(90deg);
+    transform: translate3d(0px, 0pxpx, 160px) rotateX(90deg);
+}
+
+#size-label {
+    position: absolute;
+    width: 300px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: translate3d(-150px, 0px, 1170px) rotateX(90deg);
+    transform: translate3d(-150px, 0px, 1170px) rotateX(90deg);
+}
+
+#size {
+    position: absolute;
+    color: #333333;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: translate3d(-100px, 0, 1110px) rotateX(90deg);
+    transform: translate3d(-100px, 0, 1110px) rotateX(90deg);
+}
+
+#size-unit {
+    font-size: 35px;
+}
+
+#profile {
+    position: absolute;
+    width: 350px;
+    height: 105px;
+    -webkit-transform: translate3d(-1450px, 0, 0);
+    transform: translate3d(-1450px, 0, 0);
+}
+
+#choppiness {
+    position: absolute;
+    color: #333333;
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: translate3d(-1350px, 0, 100px) rotateX(90deg);
+    transform: translate3d(-1350px, 0, 100px) rotateX(90deg);
+}
+
+#choppiness-label {
+    position: absolute;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    width: 300px;
+    text-align: center;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: translate3d(-1400px, 0px, 175px) rotateX(90deg);
+    transform: translate3d(-1400px, 0px, 175px) rotateX(90deg);
+}
+
+#footer {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    z-index: 3;
+}
+
+#footer a {
+    text-decoration: underline;
+    color: #333333;
+}
