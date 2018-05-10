@@ -1,4 +1,4 @@
-#Ocean Wave Simulation
+# Ocean Wave Simulation
 
 ![Alt text](http://david.li/images/wavesgithub.png)
 
